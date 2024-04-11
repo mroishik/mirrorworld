@@ -1,0 +1,252 @@
+/* all URL importes */
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Marcellus&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:default 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+a{
+  text-decoration: none;
+}
+html, body{
+  overflow-x: hidden;
+}
+
+
+
+
+ /* Default View Ends */
+
+ .navbar-nav .nav-link {
+    font-size: 50px;
+    font-family: 'Varela Round', sans-serif;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  
+    justify-content: space-evenly;
+  }
+  .nav-link{
+      color: black;
+  }
+
+  .nav-link li{
+    font-weight: 600;
+  }
+
+/* Hero Sections  */
+.hero-section {
+    height: 5px;
+    color: #141414;
+    
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-bottom: 250px;
+}
+.bg-body-tertiary {
+    --bs-bg-opacity: 0.5;
+    background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+.frontimage{
+    background: url(assets/image/demoimgI.png);
+    
+}
+.cl-text-one{
+    font-family: "Courgette", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 67px;
+    text-align: left;
+    line-height: 70px;
+    color: #692FA7;
+    margin-left : 6%
+}
+.cl-text-two{
+    font-family: "Poppins", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-left : 6%
+}
+
+.clickme{
+    position: absolute;
+    width: 154px;
+    height: 44px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 0px;
+    background: #b5419f;
+    /* Additional styles for centering the text and cursor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.clickme-txt{
+    /* More Details */
+
+position: absolute;
+width: 75px;
+height: 1px;
+
+
+font-family: "Poppins", cursive;
+font-size: 14px;
+font-weight: 400;
+line-height: 14px;
+font-style: normal;
+text-align: center;
+color: #ffffff;
+
+}
+.about-img-one{
+    top: 700px;
+    z-index: 58;
+    margin-left: 36px;
+}
+.about-img-one img{
+    position: absolute;
+    width: 499px;
+    height: 536px;
+    
+}
+
+.about-img-two img{
+    /* Rectangle 59 */
+
+position: absolute;
+width: 582px;
+height: 406px;
+
+
+background: #b5419f;
+
+}
+.about-img-two{
+    margin-top: 120px;
+
+}
+.about-img-three{
+    z-index: 200;
+    Left : 636px;
+    Top : 934px;
+}
+.about-img-three img{
+    Width : 32px;
+    Height : 199px;
+    Left : 636px;
+    Top : 934px;
+    Opacity : 1.00;
+    z-index: 200;
+    margin-left: 541px;
+}
+.about-txt-one {
+    /* Experience Wellnez */
+
+position: absolute;
+width: 207px;
+height: 15px;
+
+
+font-family: "Poppins", cursive;
+font-size: 12px;
+font-weight: 500;
+line-height: 16px;
+font-style: normal;
+text-align: left;
+letter-spacing: 5px;
+color: #692fa7;
+
+}
+.about-txt-one  p{
+    font-family: "Poppins", cursive;
+font-size: 16px;
+font-weight: 500;
+line-height: 16px;
+font-style: normal;
+text-align: left;
+letter-spacing: 2%;
+padding-left: 2vw;
+
+color: #692fa7;
+}
+.about-txt-two{
+    /* 25 Years */
+
+    position: absolute;
+    width: 146px;
+    height: 31px;
+    
+    
+    background: #692fa7
+}
+.about-txt-two p{
+    /* 25 Years */
+
+
+
+
+font-family: "Poppins", cursive;
+font-size: 16px;
+font-weight: 500;
+justify-content: center;
+font-style: normal;
+text-align: center;
+
+color: #ffffff;
+
+}
+.about-txt-three {
+    /* Discover a New You */
+
+position: absolute;
+width: 500px;
+height: 36px;
+
+margin-top: 20px;
+font-family: "Courgette";
+font-size: 50px;
+font-weight: 400;
+line-height: 50px;
+font-style: normal;
+text-align: left;
+color: #692fa7;
+
+}
+.about-txt-four{
+    margin-top: 30vh;
+    margin-left: 7vh;
+    position: absolute;
+    width: 548px;
+    height: 150px;
+    
+    
+    background: #ffffff;
+    background: linear-gradient(-90deg, 
+    #ffffff 0.00%, 
+    #ead5ff 100.00%);
+}
+.about-txt-four p{
+    position: absolute;
+width: 519px;
+height: 109px;
+
+
+font-family: "poppins";
+font-size: 17px;
+font-weight: 400;
+line-height: 29px;
+font-style: normal;
+text-align: left;
+color: #000000;
+}
