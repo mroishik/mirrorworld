@@ -52,7 +52,7 @@ html, body{
     background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 }
 .frontimage{
-    background: url(assets/image/demoimgI.png);
+    background: url(assets/image/Mask\ Group\ 38.png);
     
 }
 .cl-text-one{
@@ -74,6 +74,27 @@ html, body{
 }
 
 .clickme{
+    position: absolute;
+    width: 154px;
+    height: 44px;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 24px;
+    border-bottom-left-radius: 0px;
+    background: #b5419f;
+    /* Additional styles for centering the text and cursor */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.clickme-two{
+    margin-top: 75vh;
+    margin-left: 7vh;
     position: absolute;
     width: 154px;
     height: 44px;
@@ -133,7 +154,7 @@ background: #b5419f;
 
 }
 .about-img-two{
-    margin-top: 120px;
+    margin-top: 157px;
 
 }
 .about-img-three{
@@ -236,6 +257,7 @@ color: #692fa7;
     #ffffff 0.00%, 
     #ead5ff 100.00%);
 }
+
 .about-txt-four p{
     position: absolute;
 width: 519px;
@@ -249,4 +271,61 @@ line-height: 29px;
 font-style: normal;
 text-align: left;
 color: #000000;
+}
+.about-txt-five{
+    margin-top: 55vh;
+    margin-left: 7vh;
+    position: absolute;
+width: 540px;
+height: 111px;
+}
+.about-txt-five p{
+    font-family: "poppins";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 29px;
+    font-style: normal;
+    text-align: left;
+    color: #000000;
+}
+.container-header p{
+    font-family: "courgette";
+font-size: 53px;
+font-weight: 400;
+line-height: 29px;
+font-style: normal;
+text-align: center;
+color: #692fa7;
+align-items: center;
+}
+.container-header{
+    justify-content: center;
+    position: absolute;
+width: 313px;
+height: 43px;
+text-align: center;
+
+
+}
+.container-header-two{
+    position: absolute;
+width: 379px;
+height: 18px;
+}
+.container-header-two p{
+    font-family: "poppins";
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+font-style: normal;
+text-align: center;
+color: #000000;
+}
+
+.service{
+    background-color: #FFFFFF;
+
+    padding-top: 212px;
+    top: 110vh;
+    z-index: 200;
 }
